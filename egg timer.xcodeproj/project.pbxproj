@@ -13,10 +13,11 @@
 		9FB38D32238EA8E000DE4491 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FB38D30238EA8E000DE4491 /* Main.storyboard */; };
 		9FB38D34238EA8E000DE4491 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FB38D33238EA8E000DE4491 /* Assets.xcassets */; };
 		9FB38D37238EA8E000DE4491 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FB38D35238EA8E000DE4491 /* LaunchScreen.storyboard */; };
+		9FB38D3F238EC61B00DE4491 /* alarm_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9FB38D3E238EC61B00DE4491 /* alarm_sound.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9FB38D27238EA8E000DE4491 /* egg timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "egg timer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FB38D27238EA8E000DE4491 /* Egg Timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Egg Timer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FB38D2A238EA8E000DE4491 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9FB38D2C238EA8E000DE4491 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		9FB38D2E238EA8E000DE4491 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +25,7 @@
 		9FB38D33238EA8E000DE4491 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9FB38D36238EA8E000DE4491 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9FB38D38238EA8E000DE4491 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FB38D3E238EC61B00DE4491 /* alarm_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = alarm_sound.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +50,7 @@
 		9FB38D28238EA8E000DE4491 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9FB38D27238EA8E000DE4491 /* egg timer.app */,
+				9FB38D27238EA8E000DE4491 /* Egg Timer.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -63,6 +65,7 @@
 				9FB38D33238EA8E000DE4491 /* Assets.xcassets */,
 				9FB38D35238EA8E000DE4491 /* LaunchScreen.storyboard */,
 				9FB38D38238EA8E000DE4491 /* Info.plist */,
+				9FB38D3E238EC61B00DE4491 /* alarm_sound.mp3 */,
 			);
 			path = "egg timer";
 			sourceTree = "<group>";
@@ -84,7 +87,7 @@
 			);
 			name = "egg timer";
 			productName = "egg timer";
-			productReference = 9FB38D27238EA8E000DE4491 /* egg timer.app */;
+			productReference = 9FB38D27238EA8E000DE4491 /* Egg Timer.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -127,6 +130,7 @@
 			files = (
 				9FB38D37238EA8E000DE4491 /* LaunchScreen.storyboard in Resources */,
 				9FB38D34238EA8E000DE4491 /* Assets.xcassets in Resources */,
+				9FB38D3F238EC61B00DE4491 /* alarm_sound.mp3 in Resources */,
 				9FB38D32238EA8E000DE4491 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,14 +291,15 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P56V9VTL9F;
 				INFOPLIST_FILE = "egg timer/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.MladenPosedi.egg-timer";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Egg Timer";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -305,14 +310,15 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P56V9VTL9F;
 				INFOPLIST_FILE = "egg timer/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.MladenPosedi.egg-timer";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Egg Timer";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
